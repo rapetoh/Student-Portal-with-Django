@@ -1,0 +1,23 @@
+
+<html lang="en">
+{%extends 'Portail_Etudiant/base.html'%}
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styleINSCRIPTION.css' %}">
+    <title>{% block title %}Thank-you{% endblock title %}</title>
+</head>
+<body>
+    {%block main-content%}
+
+    <div id="boxx">
+            
+            <h1 style="border: none; border-bottom: 3px solid rgb(196, 22, 155);  display: flex; justify-content: center; padding-top: 130px;" ><p>You have successfully been registered !&nbsp;&nbsp;<img style="width: 65px; margin-bottom:10px;" src="{%static 'img/coche.png' %}"><br/>&nbsp;</p></h1>
+    </div>
+
+    {%endblock main-content%}
+    
+</body>
+</html>
